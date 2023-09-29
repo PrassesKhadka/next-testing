@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Home from "../src/app/page";
+<<<<<<< HEAD
 import "@testing-library/jest-dom";
 
 describe("Home", () => {
@@ -12,5 +13,17 @@ describe("Home", () => {
 
     // ASSERT
     expect(word).toBeInTheDocument();
+=======
+
+describe("Home", () => {
+  it("renders a heading", () => {
+    render(<Home />); //ARRANGE
+
+    const heading = screen.getByRole("heading", {
+      name: /Next.js Testing\.js!/i,
+    });
+
+    expect(heading).toBeInTheDocument();
+>>>>>>> 7c81a88ab3607032af02d8258b77ea3238587e83
   });
 });

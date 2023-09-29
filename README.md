@@ -112,6 +112,15 @@ npm i -D eslint-plugin-jest-dom eslint-plugin-testing-library
 
 # References
 
+<<<<<<< HEAD
 - [https://nextjs.org/docs/pages/building-your-application/optimizing/testing#jest-and-react-testing-library](Next Docs)
 
 - [https://www.youtube.com/watch?v=AS79oJ3Fcf0](Dave Gray yt)
+=======
+- (https://nextjs.org/docs/pages/building-your-application/optimizing/testing#jest-and-react-testing-library)[Next docs]
+- (https://www.youtube.com/watch?v=AS79oJ3Fcf0)[Dave Gray yt]
+
+```
+
+```
+>>>>>>> 7c81a88ab3607032af02d8258b77ea3238587e83
